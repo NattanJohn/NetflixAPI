@@ -13,6 +13,7 @@ export default ({ items, title }) => {
                             <div key={key} className="movieRow--item">
                                 <img
                                     src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}
+                                    alt={items.name}
                                 ></img>
                             </div>
                         ))}
