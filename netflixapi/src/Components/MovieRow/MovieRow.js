@@ -3,7 +3,7 @@ import "./MovieRow.css";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ({ items, title }) => {
     return (
-        <div>
+        <div className="movieRow">
             <h2> {title}</h2>
 
             <div className="movieRow--area">
